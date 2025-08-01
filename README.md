@@ -75,6 +75,25 @@ Once inside, you can use the AD DS credentials defined in set-up.ps1 (default: A
 
 ---
 
+## ⚙ Configuration / Customization
+
+| File            | What to Edit                                                                 |
+|-----------------|------------------------------------------------------------------------------|
+| `set-up.ps1`    | Change domain name (`-DomainName`), admin password, or other AD DS options. |
+| `Vagrantfile`   | Modify VM name, memory (`vb.memory`), CPUs (`vb.cpus`), or static IP.        |
+| `Automated.xml` | *(Optional)* Modify auto-logon settings or hostname.                         |
+
+---
+
+## ⚠ Troubleshooting
+
+| Problem              | Solution                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| VM fails to boot      | Ensure VirtualBox and Vagrant are installed and up to date.             |
+| Provisioning error    | Run `vagrant reload --provision`.                                       |
+| AD DS setup fails     | Check `set-up.ps1` for correct domain name and password format.         |
+| Cannot RDP into VM    | Ensure RDP is enabled or use `vagrant rdp`.                             |
+| Need static IP        | Edit `config.vm.network` in `Vagrantfile` with your desired IP address. |
 
 
 
