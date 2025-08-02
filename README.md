@@ -22,8 +22,13 @@ It eliminates manual installation steps by using:
 
 
 📁 windows-server-ad-ds/
+
 │── Vagrantfile         # Vagrant configuration for VM setup
+
+
 │── Automated.xml       # Used for auto-logon configuration (optional)
+
+
 │── set-up.ps1          # PowerShell script to install and configure AD DS
 
 
@@ -50,6 +55,7 @@ Install the following on your host system:
 
 ### 1️⃣ Clone the Repository
 git clone https://github.com/your-username/windows-server-ad-ds.git
+
 cd windows-server-ad-ds
 
 ### 2️⃣ Start the VM
