@@ -63,7 +63,9 @@ vagrant up
 
 ## ✅ What happens automatically:
 ✅ A Windows Server 2019 VM is created using the prebuilt box 
+
 ✅ On first boot, set-up.ps1 installs and configures AD DS  
+
 ✅ The VM becomes a Domain Controller  
 
 ## 3️⃣ Access the VM
