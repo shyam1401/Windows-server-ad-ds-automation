@@ -54,7 +54,7 @@ Install the following on your host system:
 ## ▶️ How to Use
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/windows-server-ad-ds.git
+git clone [https://github.com/shyam1401/Windows-server-ad-ds-automation.git]
 
 cd windows-server-ad-ds
 
